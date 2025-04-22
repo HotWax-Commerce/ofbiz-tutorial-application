@@ -19,5 +19,8 @@ under the License.
 -->
 
 <entity-engine-xml>
-
+    <OfbizTutorial ofbizTutorialId="TUT_01" ofbizTutorialTypeId="INTERNAL" firstName="First 1" lastName="Last 1" comments="This is test comment for first record."/>
+    <OfbizTutorial ofbizTutorialId="TUT_02" ofbizTutorialTypeId="INTERNAL" firstName="First 2" lastName="Last 2" comments="This is test comment for second record."/>
+    <OfbizTutorial ofbizTutorialId="TUT_03" ofbizTutorialTypeId="EXTERNAL" firstName="First 3" lastName="Last 3" comments="This is test comment for third record."/>
+    <OfbizTutorial ofbizTutorialId="TUT_04" ofbizTutorialTypeId="EXTERNAL" firstName="First 4" lastName="Last 4" comments="This is test comment for fourth record."/>
 </entity-engine-xml>

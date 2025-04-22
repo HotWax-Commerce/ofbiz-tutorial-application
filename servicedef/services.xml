@@ -24,10 +24,12 @@ under the License.
     <vendor></vendor>
     <version>1.0</version>
 
-    <service name="noSyntaxError" engine="interface">
+    <service name="createOfbizTutorial" engine="entity-auto" default-entity-name="OfbizTutorial" invoke="create">
         <description>
-            Dummy service to prevent empty files and syntax error - Remove when the 1st real service will be added here 
+            Creating new OfbizTutorial Record
         </description>
+        <auto-attributes include="pk" mode="OUT" optional="false" />
+        <auto-attributes include="nonpk" mode="IN" optional="false" />
     </service> 
     
 </services>

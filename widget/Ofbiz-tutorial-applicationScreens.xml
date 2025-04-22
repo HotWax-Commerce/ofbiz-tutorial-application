@@ -27,10 +27,11 @@ under the License.
                 <set field="headerItem" value="main"/><!-- this highlights the selected menu-item with name "main" -->
             </actions>
             <widgets>
-                <decorator-screen name="Ofbiz-tutorial-applicationCommonDecorator" location="${parameters.mainDecoratorLocation}">
-                    <decorator-section name="body">
-                    </decorator-section>
-                </decorator-screen>
+                    <decorator-screen name="main-decorator" location="${parameters.mainDecoratorLocation}">
+                        <decorator-section name="body">
+                            <label text="Hello World!! :)"/>
+                        </decorator-section>
+                    </decorator-screen>
             </widgets>
         </section>
     </screen>

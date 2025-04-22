@@ -19,5 +19,6 @@ under the License.
 -->
 
 <entity-engine-xml>
-
+    <OfbizTutorialType ofbizTutorialTypeId="INTERNAL" description="Internal Demo - Office"/>
+    <OfbizTutorialType ofbizTutorialTypeId="EXTERNAL" description="External Demo - On Site"/>
 </entity-engine-xml>
